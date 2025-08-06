@@ -12,9 +12,10 @@ Solve the puzzle — fast and efficiently.
 2. Activate a venv
    ```bash
    python3 -m venv env && source env/bin/activate
-3. Install the only dependency: 
+3. Install dependencies: 
     ```bash
-    pip install httpx
+    pip install install "httpx[http2]" ## why http2? because it handles more efficently and faster concurrency
+    pip install requests
 4. RUN command:
     ```bash
     python3 puzzle.py
