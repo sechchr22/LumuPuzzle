@@ -1,4 +1,4 @@
-# 🧩 Puzzle Challenge
+# 🧩 Infinit Puzzle Challenge
 
 Solve the puzzle — fast and efficiently.
 ---
